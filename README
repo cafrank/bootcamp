@@ -14,8 +14,17 @@ Copy completed coding exercises to the local git reoisitory
       Ctrl-D
     Repeat for Exercise-2 - 4
 
+See: https://circleci.com/blog/pushing-a-project-to-github/?utm_medium=SEM&utm_source=gnb&utm_campaign=SEM-gnb-DSA-Eng-ni&utm_content=&utm_term=dynamicSearch-&gclid=Cj0KCQiA88X_BRDUARIsACVMYD8OHf0Mbn8QjENd-8YWfi8D1cpGquG-laAOzHN1PrL9q25lNv_c7FUaAhTVEALw_wcB
+Add new files to the local repository
+  $ cd bootcamp
+  $ git add .
+  You can continue to edit the files before committing.
+
+See: 
 Commit the new files to the local repository
+  $ git commit -am "Adding Exercise 1 - 4, and README"
 
 Push the committed files to Github
-
+  # Cloned. No need for: git remote add origin https://github.com/cafrank/bootcamp
+  $ git push origin 
 
