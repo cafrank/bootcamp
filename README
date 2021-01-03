@@ -1,0 +1,21 @@
+WINDOWS:
+  Install Gitbash
+
+OSX / Linux
+
+Create local git clone (of the bootcamp repository) on your machine.
+    $ cd my_git_dir
+    $ git clone https://github.com/cafrank/bootcamp
+    $ cd bootcamp
+
+Copy completed coding exercises to the local git reoisitory
+    $ cat > Exercise-1.html
+      -- Copy/Paste from https://www.udemy.com/course/the-web-developer-bootcamp/learn/quiz/5040066#overview
+      Ctrl-D
+    Repeat for Exercise-2 - 4
+
+Commit the new files to the local repository
+
+Push the committed files to Github
+
+
