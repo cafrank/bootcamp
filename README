@@ -12,7 +12,7 @@ Copy completed coding exercises to the local git reoisitory
     -- Create file Exercise-1.html in VS Code
     -- Copy/Paste from https://www.udemy.com/course/the-web-developer-bootcamp/learn/quiz/5040066#overview
     -- Save file
-    # OR Unix hacker way:
+    # OR (Optional) Unix hacker way:
     $ cat > Exercise-1.html
       -- Copy/Paste from https://www.udemy.com/course/the-web-developer-bootcamp/learn/quiz/5040066#overview
       Ctrl-D
