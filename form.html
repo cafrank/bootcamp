@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+    <form method="GET" action="https://www.reddit.com/search/">
+        <!-- https://www.reddit.com/search/?q=chicken -->
+        <p>
+            <label for="query">Search reddit for: </label>
+            <input type="text" id="query"  name="q" placeholder="chicken"/>    
+        </p>
+        <input type="password" id="p"  name="p"/>
+        <input type="color" id="color"  name="color"/>
+        <button type="button">No Submit</button>
+        <input type="submit"/>
+        <input type="submit" value="Click me!">
+
+        <input type="text" name="" id="">
+        <!--
+        input:r[name=myCity id=$ value=x$]*4
+        -->
+        <input type="radio" name="myCity" id="1" value="x1">
+        <input type="radio" name="myCity" id="2" value="x2">
+        <input type="radio" name="myCity" id="3" value="x3">
+        <input type="radio" name="myCity" id="4" value="x4">
+
+        <!--
+        select>option[value=$]{x$}*4
+        -->
+        <select name="" id="">
+            <option value="1">x1</option>
+            <option value="2">x2</option>
+            <option value="3" selected>x3</option>
+            <option value="4">x4</option>
+        </select>
+        <input type="range" name="r" id="r" min="4" max"200">
+
+    </form>
+</body>
+</html>
