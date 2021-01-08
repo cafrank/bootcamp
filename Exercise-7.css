@@ -1,0 +1,19 @@
+/* https://www.w3schools.com/colors/colors_names.asp */
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: fuchsia;
+}
+
+p {
+    color: #ffffff;
+    background-color: black;
+}
+
+button {
+    color: red;
+    background-color:pink;
+}
