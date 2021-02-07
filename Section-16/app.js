@@ -13,8 +13,10 @@ let myNumber = parseInt(userInput);
 
 if (myNumber > 100) {
     console.error('Big number', myNumber);
-} else {
+} else if (myNumber > 50)  {
     console.warn('Number too small try', 100 + Math.floor(Math.random()*100));
+} else {
+    console.error('Number way too small try', 100 + Math.floor(Math.random()*100));
 }
 
 
