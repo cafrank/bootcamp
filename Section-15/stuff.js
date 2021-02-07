@@ -43,3 +43,20 @@ nums.replace('45', 'XX');
 nums.repeat(10);
 // '0123456789012345.....'
 
+// String templates.  Using singls back-quotes
+// Executes javascript in the ${    }
+let price = 2.45;
+let tmpl = `The price is ${price * 2} bucks.` 
+
+// undefined == I don't know
+// null == empty
+
+Math.round(5.666)
+// 5
+Math.PI
+Math.sin(2*Math.PI)
+Math.ciel(2*Math.PI)
+
+1 + Math.floor(Math.random() * 100);
+
+Math.pow(2, 3);
