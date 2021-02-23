@@ -21,6 +21,6 @@ for (let i=0; i<anamals.length; i++) {
     console.log(i, anamals[i]);
 }
 
-for (let a : anamals) {
+for (let a of anamals) {
     console.log(a);
 }
