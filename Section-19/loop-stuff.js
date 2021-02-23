@@ -24,3 +24,7 @@ for (let i=0; i<anamals.length; i++) {
 for (let a of anamals) {
     console.log(a);
 }
+
+for (let ch of "Hello WOrkd") {
+    console.log(ch);
+}
