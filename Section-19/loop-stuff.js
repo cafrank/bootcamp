@@ -25,6 +25,16 @@ for (let a of anamals) {
     console.log(a);
 }
 
-for (let ch of "Hello WOrkd") {
-    console.log(ch);
+let num = parseInt(prompt("Emter a number: "));
+console.log(num);
+
+const testScores = {
+    jim: 44,
+    bob: 43,
+    tim: 55,
+    bill: 46
+};
+
+for (let key in testScores) {
+    console.log(key, testScores[key]);
 }
