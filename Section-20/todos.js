@@ -7,18 +7,41 @@ for (let cmd=prompt(cmdPrompt); cmd != 'quit'; cmd=prompt(cmdPrompt) ) {
 
 // It is nice to get exact mesages from stake holders, and 
 // make constants that cn be quickly reviewed by the team.
-// let cmdPrompt = 'Enter command: list, add, delete, or quit';
-// let delPrompt = 'Enter number of todo to delete';
-// let newPrompt = 'Enter new todo';
+
+const cmdPrompt = 'Enter command: list, add, delete, or quit';
+const delPrompt = 'Enter number of todo to delete';
+const newPrompt = 'Enter new todo';
 
 // Pick the best data structure to hold the data.
 // The name makes its purpouse obvious.
 // let todosData = ['Review code', 'REad the entire document'];
 
+// Functions, functions, functions !!!
+function doList() {
+    for(let i=0; i<todosData.length; i++) {
+        console.log(`${i}: ${todosData[i]}...`);
+    }
+}
+
+function doDelete() {
+    let delTodo = cmd=prompt(delPrompt);
+    todosData.splice(delTodo, 1);
+}
+
 // Compact, elegant, but might be hard to read !!!
-// for (let cmd=prompt(cmdPrompt); cmd != 'quit'; cmd=prompt(cmdPrompt) ) {
-//     console.log('You typed::', cmd);
-// }
+for (let cmd=prompt(cmdPrompt); cmd != 'quit'; cmd=prompt(cmdPrompt) ) {
+    if (cmd.toLowerCase() == 'list') {
+        doList();
+    } else if (cmd.toLowerCase() == 'delete') {
+        doList();
+        doDelete();
+    } else if (cmd.toLowerCase() == 'add') {
+        let newTodo = cmd=prompt(newPrompt);
+        todosData.push(newTodo);
+    } else {
+        console.log('Invalid command:', cmd);
+    }
+}
 
 // cmd=prompt(cmdPrompt);
 // while (cmd != 'quit') {
