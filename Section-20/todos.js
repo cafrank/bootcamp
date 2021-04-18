@@ -68,13 +68,17 @@ for (let cmd=prompt(cmdPrompt); cmd != 'quit'; cmd=prompt(cmdPrompt) ) {
 // }
 
 // Dense for loop 
-// for (let isCold=true;      isCold;     isCold=false) {
-//     console.log('Heating up');
-// }
+for (let isCold=true;      isCold;     isCold=false) {
+    console.log('Heating up');
+}
 
 // The same thing done with more lines in a while loop
-// let isCold = true;
-// while(isCold) {
-//     console.log('Heating up');
-//     isCold = false;
-// }
+
+let isCold = true;
+let temp   = 40;        // This is cold
+isCold = (temp < 70)
+
+while(temp < 70) {
+    console.log('Heating up');
+    isCold = false;
+}
