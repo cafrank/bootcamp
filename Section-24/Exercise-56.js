@@ -5,8 +5,7 @@ let spans = document.querySelectorAll("h1 span");  // Note this is collection. L
 
 // Lucky that lolors.length === spans.length :-)
 // Usually we have to check for stuff like that
+
 for (let i=0; i<colors.length; i++) {
    spans[i].style.color = colors[i];
 }
-
-spans[0].style.color = 'red';
